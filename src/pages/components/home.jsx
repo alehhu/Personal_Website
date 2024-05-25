@@ -13,18 +13,15 @@ const Home = () => {
             Alessandro Hu
           </span>
           </h1>
-        <p>Welcome to my personal website. Here you'll find information about my projects and how to get in touch with me.</p>
+        <p>A computer science student from Italy, focused on deepening my knowledge in technology and product development to contribute to innovative solutions.</p>
       </div>
       <div className={styles.homeImage}>
         <Image
           src={profilePic}
           style={{
             position: 'relative',
-            height: '330px',
-            width: '400px',
-            top: '5rem',
-            borderStyle: 'solid',
-            borderWidth: '5px',
+            height: '315px',
+            width: '350px',
             borderTop: '0px',
             borderLeft: '0px',
             borderColor: '#1e6fd9',

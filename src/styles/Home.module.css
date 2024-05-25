@@ -8,7 +8,7 @@
   top: 9rem;
 }
 
-.home-text {
+.homeText {
   position: relative;
   top: 2rem;
   display: flex;
@@ -16,7 +16,8 @@
   width: 40vw;
 }
 
-.home-text h1 {
+.homeText h1 {
+  font-size: 4.1rem;
   font-family: "Montserrat";
 }
 
@@ -24,14 +25,10 @@
   color: #1e6fd9;
 }
 
-.home-text p {
+.homeText p {
   position: relative;
-  top: -4rem;
-  font-size: 2rem;
+  top: -2rem;
+  font-size: 1.7rem;
+  color: gray;
   opacity: 0.4;
-}
-
-.home-image {
-  width: 200px; /* Set the width to 200 pixels */
-  height: auto; /* The height will adjust proportionally */
 }

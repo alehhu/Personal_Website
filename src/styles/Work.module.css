@@ -2,15 +2,24 @@
 .work {
   display: block;
   padding: 2rem 0;
-  color: #333; /* Change text color to dark gray */
+  color: black; /* Change text color to dark gray */
   position: relative;
   top: 200px;
 }
 
 .work h1 {
-  font-size: 2rem;
+  font-size: 5rem;
   margin-bottom: 1.5rem;
-  text-align: center;
+  text-align: left;
+  font-family: "Montserrat";
+
+  display: block;
+
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
 }
 
 .projects {

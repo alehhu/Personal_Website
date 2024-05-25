@@ -1,7 +1,7 @@
 /* src/Contact.css */
 .contact {
   text-align: center;
-  color: #fff; /* Change text color to white */
+  color: black; /* Change text color to white */
 
   display: flex;
   flex-direction: column;

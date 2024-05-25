@@ -25,7 +25,7 @@ const projects = [
 const Work = () => {
   return (
     <div className={styles.work}>
-      <h1>Projects</h1>
+      <h1>Projects.</h1>
       <div className="projects">
         {projects.map((project, index) => (
           <Project 
