@@ -1,0 +1,47 @@
+/* src/Contact.css */
+.contact {
+  text-align: center;
+  color: #fff; /* Change text color to white */
+
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 20rem;
+  padding: 20px;
+  
+  text-align: left;
+}
+
+.contact h1 {
+  font-size: 7rem;
+  font-family: "Montserrat";
+}
+
+.contact p {
+  width: 50vw;
+  position: relative;
+  top: -6rem;
+
+  font-size: 2rem;
+  opacity: 0.4;
+}
+
+.emailLink {
+  font-size: 4rem;
+  color: black;
+  position: relative;
+  top: -4rem;
+}
+
+.contact ul {
+  list-style-type: none;
+}
+.contact li {
+  display: inline;
+  padding-right: 3rem;
+}
+.contact li a {
+  color: black;
+  text-decoration: none;
+  font-size: 2rem;
+}

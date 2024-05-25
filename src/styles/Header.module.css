@@ -1,0 +1,38 @@
+/* src/Header.css */
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 80vw;
+  top: 5rem;
+  background-color: transparent;
+  position: relative;
+  border-radius: 8px;
+}
+
+.header h1 {
+  font-size: 1rem;
+}
+
+.header ul {
+  list-style: none;
+}
+
+.header ul li {
+  display: inline-block;
+  padding-right: 2rem;
+}
+
+.header ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 1rem;
+}
+
+.header .logo {
+  text-decoration: none;
+  color: green;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
