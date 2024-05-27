@@ -32,3 +32,6 @@
   color: gray;
   opacity: 0.4;
 }
+.homeImage img:hover {
+  transform: scale(1.1);
+}
