@@ -1,10 +1,12 @@
 /* src/Work.css */
 .work {
-  display: block;
+  display: flex;
+  flex-direction: column;
+  position: relative;
   padding: 2rem 0;
   color: black; /* Change text color to dark gray */
-  position: relative;
   top: 200px;
+  width: 80vw;
 }
 
 .work h1 {
@@ -23,11 +25,9 @@
 }
 
 .projects {
-  top: 70px;
   display: flex;
   flex-wrap: wrap;
-  gap: 2rem;
-  justify-content: center;
+  gap: 1.5rem;
 }
 
 .project {

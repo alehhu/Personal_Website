@@ -14,13 +14,15 @@ const Project = ({ id, title, description, demoLink, imageSrc, gitUrl }) => {
         </a>
       </div>
       <div className={styles.projectInfo}>
-        <strong >{title}</strong>
-        <br />
-        <p>{description}</p>
+        <div className={styles.projectInfoTextSection}>
+          <strong >{title}</strong>
+          <br />
+          <p>{description}</p>
+        </div>
         <button className={styles.gitButton}>
             <a href={gitUrl}>
-            (Git)
-            </a>
+            
+            </a>(Git)
         </button>
       </div>
     </div>

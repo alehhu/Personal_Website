@@ -28,7 +28,7 @@ const Work = () => {
   return (
     <div className={styles.work}>
       <h1>Projects.</h1>
-      <div className="projects">
+      <div className={styles.projects}>
         {projects.map((project, index) => (
           <Project 
             key={index} 

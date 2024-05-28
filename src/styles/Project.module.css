@@ -1,23 +1,59 @@
 .project {
-
+   display: inline-flex;
+   flex-direction: column;
+   position: relative;
 }
 
 .image {
    width: 346px;
+   transition: transform 0.5s ease;
 }
+
+.image img {
+   
+}
+
+.image:hover {
+   opacity: 0.8;
+   transform: scale(0.9);
+ }
 
 .projectInfo {
-
+   display: flex;
+   justify-content: space-between;
 }
 
-.projectInfo strong {
-
+.projectInfoTextSection {
+   display: inline-block;
 }
 
-.projectInfo p {
-    
+.projectInfoTextSection strong {
+   font-weight: bold;
+   font-size: 1.2rem;
+}
+
+.projectInfoTextSection p {
+    position: relative;
+    top: -15px;
+    font-size: 16px;
 }
 
 .gitButton {
+   width: 70px;
+   height: 50px;
 
+   background-color: #01204E;
+   color: white;
+   border: none;
+   padding: 12px 24px;
+   font-size: 16px;
+   border-radius: 3px;
+   cursor: pointer;
+   transition: background-color 0.3s ease, transform 0.3s ease;
 }
+
+.gitButton:hover {
+   background-color: #218838;
+   background-color: #028391;
+   transform: scale(1.05);
+ }
