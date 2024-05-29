@@ -21,8 +21,7 @@ const Project = ({ id, title, description, demoLink, imageSrc, gitUrl }) => {
         </div>
         <button className={styles.gitButton}>
             <a href={gitUrl}>
-            
-            </a>(Git)
+            </a>Git
         </button>
       </div>
     </div>

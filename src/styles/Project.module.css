@@ -45,9 +45,9 @@
    background-color: #01204E;
    color: white;
    border: none;
-   padding: 12px 24px;
    font-size: 16px;
-   border-radius: 3px;
+   font-family: "Source Code Pro", monospace;
+   border-radius: 7px;
    cursor: pointer;
    transition: background-color 0.3s ease, transform 0.3s ease;
 }
