@@ -13,4 +13,4 @@ pnpm dev
 # or
 bun dev
 ```
-
+### I'm having issues deploying the website.. apparently css code is not being sent from the server correctly.
