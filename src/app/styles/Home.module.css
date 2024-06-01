@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:700|Open+Sans&display=swap");
+
 /* src/Home.css */
 .home {
   display: flex;
@@ -18,7 +20,7 @@
 
 .homeText h1 {
   font-size: 4.1rem;
-  font-family: "Montserrat";
+  font-family: "Montserrat"
 }
 
 .home h1 span {

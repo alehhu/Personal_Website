@@ -1,24 +1,19 @@
-// src/App.js
-import React from 'react';
-//import "../styles/App.module.css";
+import Image from "next/image";
 import Header from './components/header';
-import Home from './components/home';
+import Main from './components/main';
 import Work from './components/work';
 import Contact from './components/contact';
 import Footer from './components/footer';
 
-const App = () => {
+
+export default function Home() {
   return (
     <div className="App">
       <Header />
-      <main>
-        <Home />
+        <Main />
         <Work />
         <Contact />
-      </main>
       <Footer />
     </div>
   );
-};
-
-export default App;
+}

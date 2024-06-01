@@ -1,6 +1,7 @@
+'use client'
 // src/Contact.js
 import React from 'react';
-import styles from '../../styles/Contact.module.css';
+import styles from '@/app/styles/Contact.module.css';
 import { FaEnvelope, FaLinkedin, FaGithub } from "react-icons/fa";
 
 const Contact = () => {

@@ -1,8 +1,9 @@
+'use client'
+
 // src/Work.js
 import React from 'react';
 import Project from './project';
-import styles from '../../styles/Work.module.css';
-import imageProject01 from '../../../public/images/LelouchviBritannia.webp';
+import styles from '@/app/styles/Work.module.css';
 
 const projects = [
   { 
@@ -10,7 +11,7 @@ const projects = [
     title: 'Project 1', 
     description: 'Description of project 1', 
     demoLink: 'https://example.com/demo1', 
-    imageSrc: '/images/kw.jpg',
+    imageSrc: '/kw.jpg',
     gitUrl: '.com'
   },
   { 
@@ -18,7 +19,7 @@ const projects = [
     title: 'Project 2', 
     description: 'Description of project 2', 
     demoLink: 'https://example.com/demo2', 
-    imageSrc: '/images/kw.jpg',
+    imageSrc: '/kw.jpg',
     gitUrl: '.com'
   },
   // Add more projects as needed

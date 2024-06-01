@@ -1,6 +1,7 @@
+'use client'
 // src/Header.js
 import React from 'react';
-import styles from '../../styles/Header.module.css';
+import styles from '@/app/styles/Header.module.css';
 
 const Header = () => {
   return (

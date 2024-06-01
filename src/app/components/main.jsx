@@ -1,10 +1,12 @@
+'use client'
+
 // src/Home.jsx
 import React from 'react';
-import styles from '../../styles/Home.module.css';
+import styles from '@/app/styles/Home.module.css';
 import Image from 'next/image'
-import profilePic from '../../../public/images/elonPic.jpg'; // Add your profile picture
+import profilePic from '@/assets/elonPic.jpg'; // Add your profile picture
 
-const Home = () => {
+const Main = () => {
   return (
     <div className={styles.home}>
       <div className={styles.homeText}>
@@ -35,4 +37,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Main;
