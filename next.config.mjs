@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    basePath: "/Personal_Website",
-    assetPrefix: '/Personal_Website',
+    basePath: "/alehhu.github.io/Personal_Website",
+    assetPrefix: '/alehhu.github.io/Personal_Website',
     output: 'export',
 };
 
