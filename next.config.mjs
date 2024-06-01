@@ -1,6 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    basePath: "/alehhu.github.io/Personal_Website/out",
+    basePath: "/Personal_Website",
+    assetPrefix: '/Personal_Website',
     output: 'export',
 };
 
