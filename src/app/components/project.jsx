@@ -3,7 +3,6 @@
 // src/Project.js
 import React from "react";
 import styles from "@/app/styles/Project.module.css";
-import Image from 'next/image';
 
 
 const Project = ({ id, title, description, demoLink, imageSrc, gitUrl }) => {
@@ -11,7 +10,7 @@ const Project = ({ id, title, description, demoLink, imageSrc, gitUrl }) => {
     <div key={id} className={styles.project}>
       <div className={styles.image}>
         <a href={demoLink} className={styles.image}>
-        <Image src={imageSrc} alt={title} fetchPriority="high" width={346} height={346} />
+        <img src={imageSrc} alt={title} fetchPriority="high" width={346} height={346} />
         </a>
       </div>
       <div className={styles.projectInfo}>

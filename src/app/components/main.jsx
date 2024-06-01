@@ -3,8 +3,6 @@
 // src/Home.jsx
 import React from 'react';
 import styles from '@/app/styles/Home.module.css';
-import Image from 'next/image'
-import profilePic from '@/assets/elonPic.jpg'; // Add your profile picture
 
 const Main = () => {
   return (
@@ -18,8 +16,8 @@ const Main = () => {
         <p>A computer science student from Italy, focused on deepening my knowledge in technology and product development to contribute to innovative solutions.</p>
       </div>
       <div className={styles.homeImage}>
-        <Image
-          src={profilePic}
+      <img
+          src='/elonPic.jpg'
           style={{
             position: 'relative',
             height: '315px',
