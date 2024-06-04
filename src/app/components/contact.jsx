@@ -23,12 +23,12 @@ const Contact = () => {
             </a>
           </li>
           <li>
-          <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer">
+          <a href="https://linkedin.com/in/alessandrohu" target="_blank" rel="noopener noreferrer">
             <FaLinkedin />
           </a>
           </li>
           <li>
-          <a href="https://github.com/yourprofile" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/alehhu" target="_blank" rel="noopener noreferrer">
             <FaGithub />
           </a>
           </li>
